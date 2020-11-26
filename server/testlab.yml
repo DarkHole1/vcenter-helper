@@ -1,0 +1,9 @@
+name: Test Lab
+networks:
+  - hello
+  - yogurt
+machines:
+  - name: hello
+    template: vyos
+    networks:
+      - hello
